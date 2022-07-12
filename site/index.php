@@ -47,9 +47,6 @@
                   <a href="#portfolio" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Portfolio</a>
                 </li>
                 <li class="group">
-                  <a href="#clients" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Clients</a>
-                </li>
-                <li class="group">
                   <a href="#blog" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Blog</a>
                 </li>
                 <li class="group">
@@ -228,7 +225,7 @@
               <img src="dist/img/portfolio/3.png" alt="Kucoin Whatsapp Bot" width="w-full" />
             </div>
             <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white">Kucoin Whatsapp Bot</h3>
-            <p class="mt-5 mb-3 text-base font-medium text-secondary">Menggunakan Roother wabot sebagai base bot dan menghapus fitur-fitur yang tidak ada berkaitan dengan kucoin dan meninggalkan fitur umum dan menambahkan fitur-fitur kucoin seperti check histori, check saldo, buy, sell, serta notif jika ada histori baru, trade terjual/terbeli, dan juga auto update status wa yang berisi detail price BTC-USDT (default).</p>
+            <p class="mt-5 mb-3 text-base font-medium text-secondary">Menggunakan Roother wabot sebagai base bot dan menghapus fitur-fitur yang tidak ada berkaitan dengan kucoin dan meninggalkan fitur umum serta menambahkan fitur-fitur kucoin seperti check histori, check saldo, buy, sell, serta notif jika ada histori baru, trade terjual/terbeli, dan juga auto update status wa yang berisi detail price BTC-USDT (default).</p>
             <a href="https://wa.me/627844573228" class="rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80">Check Disini</a>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
@@ -236,7 +233,7 @@
               <img src="dist/img/portfolio/4.png" alt="Whatsapp Api Website" width="w-full" />
             </div>
             <h3 class="mt-5 mb-3 text-xl font-semibold text-dark dark:text-white">Whatsapp Api Website</h3>
-            <p class="mt-5 mb-3 text-base font-medium text-secondary">Sebuah website yang bertujuan untuk membuat bot tanda console dari terminal, dengan menggunakan sistem session yang bisa di custom nama session serta mengirim pesan menggunakan link berisi params atau body dengan metode post, cocok untuk menjadikan web ini sebagai whatsapp api untuk fitur keamanan verifikasi code sms lewat whatsapp, project ini menggunakan library <a href="https://github.com/pedroslopez/whatsapp-web.js" target="_blank" style="color: rgb(0, 255, 0) ;">whatsapp-web.js</a> sebagai library utama dalam project ini.</p>
+            <p class="mt-5 mb-3 text-base font-medium text-secondary">Sebuah website yang bertujuan untuk membuat bot tanpa console dari terminal, dengan menggunakan sistem session yang bisa di custom nama session serta mengirim pesan menggunakan link berisi params atau body dengan metode post, cocok untuk menjadikan web ini sebagai whatsapp api untuk fitur keamanan verifikasi code sms lewat whatsapp, project ini menggunakan library <a href="https://github.com/pedroslopez/whatsapp-web.js" target="_blank" style="color: rgb(0, 255, 0) ;">whatsapp-web.js</a> sebagai library utama dalam project ini.</p>
             <a href="https://wapi.roother.my.id" class="rounded-lg bg-primary py-2 px-4 text-sm font-medium text-white hover:opacity-80">Check Disini</a>
           </div>
         </div>
@@ -275,7 +272,7 @@
           </div>
         </div>
 
-        <form>
+        <form action="https://formsubmit.co/contact@swenson.my.id" method="POST">
           <div class="w-full lg:mx-auto lg:w-2/3">
             <div class="mb-8 w-full px-4">
               <label for="name" class="text-base font-bold text-primary">Nama</label>
@@ -290,7 +287,7 @@
               <textarea type="email" id="email" class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
             </div>
             <div class="w-full px-4">
-              <button class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">Kirim</button>
+              <button class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg" type="submit">Kirim</button>
             </div>
           </div>
         </form>
